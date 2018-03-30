@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web IoT</title>
+</head>
+<body>
+
+<h1>LED </h1>
+<p>
+{% if led %}
+    <button type="button" onclick="javascript:location.href='led_off'">OFF</button>
+{% else %}
+    <button type="button" onclick="javascript:location.href='led_on'">ON</button>
+{% endif %}
+</p>
+
+</body>
+</html>
